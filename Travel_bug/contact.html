@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Bug</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="icon" href="images/fav.png" />
+  </head>
+  <body>
+    <header>
+      <a href="home.html"
+        ><img src="./images/logo.png" class="logo" alt=""
+      /></a>
+      <h1>Travel Bug</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="index.html">WHY US?</a></li>
+        <li class="active"><a href="contact.html">CONTACT US</a></li>
+        <li>
+          <a href="destinations.html">POPULAR</a>
+          <ul>
+            <li><a href="destinations.html">PLACES</a></li>
+            <li><a href="destinations.html">THEMES</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <section class="form-row">
+      <h3>BOOK AN APPOINTMENT!</h3>
+      <form action="">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Ankita Sharma"
+          required
+        />
+        <label for="eMail">E-mail:</label>
+        <input
+          type="text"
+          id="eMail"
+          name="eMail"
+          placeholder="asharma@gmail.com"
+          required
+        />
+        <label for="topic">Choose a topic:</label>
+        <select name="topic" id="topic">
+          <option value="">---SELECT---</option>
+          <optgroup label="Add more destinations">
+            <option value="domestic">Domestic</option>
+            <option value="international">International</option>
+            <option value="smallCities">smallCities</option>
+          </optgroup>
+          <optgroup label="Add more Adventure">
+            <option value="sky-diving">Sky-diving</option>
+            <option value="Paragliding">Paragliding</option>
+            <option value="Bungee jumping">Bungee Jumping</option>
+          </optgroup>
+        </select>
+        <label for="comments">Comments:</label>
+        <textarea
+          name="comment"
+          rows="5"
+          cols="30"
+          placeholder="Enter regarding what you want to discuss here..."
+        ></textarea>
+
+        <label for="Language">Prefered Language:</label>
+        <div class="language">
+          <div>
+            <input type="checkbox" />
+            <label for="language1">English</label>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <label for="language2">French</label>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <label for="language3">Hindi</label>
+          </div>
+        </div>
+        <label for="travel-radio">Have you travelled with us before?</label>
+        <div class="radios">
+          <input type="radio" name="radios" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="radios" value="no" />
+          <label for="no">No</label>
+        </div>
+        <input type="reset" />
+        <input type="submit" />
+      </form>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">App</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Business</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#">International</a></li>
+              <li><a href="#">Domestic</a></li>
+              <li><a href="#">Small Cities</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>About The Site</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Customer Support</a></li>
+              <li><a href="#">Payment Security</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="copy">
+          &copy; Ankita Sharma asharma8545@conestogac.on.ca
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
